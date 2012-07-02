@@ -9,19 +9,22 @@ rAntenna は Ruby で記述された Web サイトの更新時刻取得エージ
 
 **最新版**
 
-* https://github.com/downloads/elpeo/rantenna/rantenna-0.0.6.tar.gz
+* https://github.com/downloads/elpeo/rantenna/rantenna-0.0.6.tar.gz [README](http://elpeo.jp/diary/20060113p01.html)
 
 **安定版**
 
-* https://github.com/downloads/elpeo/rantenna/rantenna-0.0.5.tar.gz
-* https://github.com/downloads/elpeo/rantenna/rantenna-0.0.4.tar.gz
-* https://github.com/downloads/elpeo/rantenna/rantenna-0.0.3.tar.gz
+* https://github.com/downloads/elpeo/rantenna/rantenna-0.0.5.tar.gz [README](http://elpeo.jp/diary/20040629p01.html)
+
+**古いバージョン**
+
+* https://github.com/downloads/elpeo/rantenna/rantenna-0.0.4.tar.gz [README](http://elpeo.jp/diary/20040423p01.html)
+* https://github.com/downloads/elpeo/rantenna/rantenna-0.0.3.tar.gz [README](http://elpeo.jp/diary/20040416p01.html)
 
 プログラム本体の他に、
 
 * Ruby1.6.7 以降
-* [uconv](http://raa.ruby-lang.org/list.rhtml?name=uconv) (Ruby1.8.1 以前で UTF-8 で出力する場合)
-* [ruby-zlib](http://raa.ruby-lang.org/list.rhtml?name=ruby-zlib) (Ruby1.6 で input_lirs.rb, output_lirs.rb を使う場合)
+* [uconv](http://raa.ruby-lang.org/project/uconv) (Ruby1.8.1 以前で UTF-8 で出力する場合)
+* [ruby-zlib](http://raa.ruby-lang.org/project/ruby-zlib) (Ruby1.6 で input_lirs.rb, output_lirs.rb を使う場合)
 
 が必要です。
 
@@ -77,7 +80,7 @@ rAntenna では update.rb というコマンドを実行したときに Web サ�
 
 update.rb を実行する際の引数として、conf ファイルのパスを１つまたは複数指定できます。引数を指定しない場合は、update.rb と同じディレクトリにある antenna.conf というファイルを使用します。
 
-### 拡張
+## 拡張
 この他の機能拡張・利用法に関しては [rAntenna plugin](http://elpeo.jp/wiki/?rAntenna+plugin) を参照ください。
 
 * LIRS 入力
