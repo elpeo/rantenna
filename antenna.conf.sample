@@ -1,0 +1,63 @@
+# antenna.conf
+# rAntenna 設定ファイル
+
+# @title
+# アンテナのタイトルを入れてください。
+# 必須です。
+@title = 'えろぺおアンテナ'
+
+# @copyright
+# Copyright を入れてください。
+# 必須です。
+@copyright = 'Copyright (C) 2004 Michitaka Ohno; E-mail: elpeo@mars.dti.ne.jp'
+
+# @antenna_url
+# アンテナのURLを入れてください。
+# 必須です。
+@antenna_url = 'http://bigfield.ddo.jp/antenna/'
+
+# @rdf_url
+# 出力されるRDFファイルのURLを入れてください。
+# 必須です。
+@rdf_url = 'http://bigfield.ddo.jp/antenna/index.rdf'
+
+# @rdf_path
+# 出力されるRDFファイル名を入れてください。
+# デフォルトは index.rdf です。
+#@rdf_path = 'index.rdf'
+
+# @link_format
+# URLからリンクを作成するフォーマットを指定してください。
+# フォーマットには以下の % 記法が使えます。
+# %antenna_url% - @antenna_url に置換されます。
+# %url% - URLに置換されます
+# %その他 - strftime(3) に渡され、更新時刻に置換されます。
+# ただし、更新時刻が取得できなかった場合はURLをそのまま使います。
+# デフォルトはURLをそのまま使います。
+#@link_format = '%url%?%m%d%H%M'
+#@link_format = '%antenna_url%go.rb/%m%d%H%M/%url%'
+
+# @urls
+# 巡回するURLを入れてください。
+# 形式は、
+# タイトル, 作者, URL, 巡回URL
+# です。巡回URLが無い場合はURLを使います。
+@urls = [
+['にっき', 'えろぺおさん', 'http://bigfield.ddo.jp/diary/'],
+['睡眠してません2', 'てんこうさん', 'http://d.tnh.jp/'],
+['睡眠してませんII', 'てんこうさん', 'http://b.tnh.jp/'],
+]
+
+# @filters
+# 更新チェック範囲を記述するフィルタを入れてください。
+# 形式は、
+# URL, フィルタパターン
+# です。URL は正規表現も使用できます。
+# フィルタパターンは、以下の関数／正規表現／Procクラスが使用できます。
+# include_range(start,end) - startからendまでを更新チェック範囲とします。
+# exclude_range(start,end) - startからendまでを更新チェック範囲外とします。
+# フィルタが定義されていない場合は、HTML全体が更新チェック範囲となります。
+@filters = [
+['http://www.example.com/', include_range('<head>','</head>')],
+]
+

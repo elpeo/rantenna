@@ -1,0 +1,20 @@
+Title: rAntennaデフォルト
+Revision: $Revision: 1.1 $
+Author: Norihiro Hattori
+Access: tnh@webmasters.gr.jp
+License: GPL
+Comment: rAntennaに付属するデフォルトテーマ
+
+ChangeLog
+Tue Apr 20 13:08:20 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* initial release from tDiary default theme.
+
+2003-04-17 TADA Tadashi <sho@spc.gr.jp?
+	* add table settings.
+
+2003-03-12 TADA Tadashi <sho@spc.gr.jp?
+	* little modified.
+
+2003-02-03 TADA Tadashi <sho@spc.gr.jp?
+	* add h4.

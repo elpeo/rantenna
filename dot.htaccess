@@ -1,0 +1,13 @@
+AddType text/xml .rdf .xsl
+DirectoryIndex index.rdf
+
+Options +ExecCGI
+AddHandler cgi-script .rb
+
+<Files "antenna.*">
+	deny from all
+</Files>
+
+<Files "imode.html">
+    AddDefaultCharset Shift_JIS
+</Files>

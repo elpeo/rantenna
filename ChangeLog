@@ -1,0 +1,264 @@
+Mon Aug 21 11:22:48 2006  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: support relative redirect.
+
+Sat Aug 19 21:51:48 2006  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: use IO::foreach.
+
+Fri Aug 18 15:02:14 2006  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* fix plural (include|exclude)_range bug.
+
+Wed Jan 11 14:49:12 2006  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* release 0.0.6.
+
+Wed Jan  4 19:38:46 2006  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb, antenna.conf.sample: support filter.
+
+Tue Jan  3 18:36:47 2006  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: fix last year's date bug.
+
+Thu Dec 22 16:17:09 2005  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* misc/plugin/output_imode.rb: support sharp button.
+
+Thu Dec 22 00:10:10 2005  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb, dot.htaccess, misc/plugin/output_imode.rb: support i-mode.
+
+Wed Dec 21 12:55:54 2005  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb, update.rb, misc/plugin/output_html.rb,
+	misc/plugin/output_lirs.rb: support @confdir.
+	* antenna.rb: support MD5 check and REDIRECT.
+
+Mon May  9 17:36:00 2005  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* index.xsl, misc/skel/template.html: remove <TT> tag.
+	* theme/rantenna/rantenna.css: add font-family.
+
+Wed Oct  6 16:20:26 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* index.xsl, misc/skel/template.html: add RSS meta tag.
+
+Mon Jun 28 18:09:23 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* release 0.0.5.
+
+Sun Jun 27 00:00:56 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* go.rb, update.rb: add BEGIN { $defout.binmode }.
+
+Fri Jun 25 22:59:37 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: ignore tags and spaces when get_last_modified.
+
+Fri Jun 18 15:11:47 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb, index.xsl: add timezone at dc:date.
+
+Thu Jun 17 23:50:32 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: add add_*_proc and antenna_url method.
+	* update.rb, go.rb: use antenna_url method.
+
+Mon May 17 01:42:30 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: support WWWC type meta tag.
+
+Thu Apr 29 13:26:16 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: use latest date when cannot get last-modified.
+
+Thu Apr 22 19:10:26 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: add urls_compare method.
+
+Tue Apr 20 19:03:09 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* misc/skel/simple_template.html: move from misc/template.html.sample
+	* misc/skel/template.html: add.
+	* theme/rantenna/rantenna.css: add adminmenu.
+
+Tue Apr 20 17:37:49 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* theme/rantenna/rantenna.css: change design.
+
+Tue Apr 20 13:11:04 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* index.xsl: change css from default.css to rantenna.css.
+	* misc/template.html.sample: change css from default.css to rantenna.css.
+	* theme/*: added from tDiary.
+
+Tue Apr 20 10:43:21 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: use CGI::escapeHTML.
+
+Mon Apr 19 18:52:49 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* misc/template.html.sample: add css
+
+Fri Mar 26 12:23:43 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* plugin/README: add.
+
+Thu Mar 25 23:31:52 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: add @generator.
+	* misc/template.html.sample: add.
+
+Thu Mar 18 13:01:33 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* go.rb: support http:/ type Apache bug?
+
+Thu Mar 18 11:08:00 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: return link unless @link_format.
+
+Thu Mar 18 10:30:17 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: support @link_format and delete @use_suffix.
+
+Wed Mar 17 18:52:54 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* go.rb: add.
+
+Tue Mar 16 17:21:49 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* TODO: add.
+
+Fri Mar 12 19:53:57 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: fix set previous update time bug.
+
+Fri Mar 12 11:52:53 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* fix bug cannot read date from rdf if use suffix.
+
+Fri Mar 12 11:15:37 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: delete tags if parse response.body.
+
+Thu Mar 11 22:23:20 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: year-- if month > now.month
+
+Thu Mar 11 19:53:21 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: support Last-Modified format.
+
+Thu Mar 11 18:27:47 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: support Lastupdate format.
+
+Thu Mar 11 17:59:08 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* update.rb: use instance_eval().
+
+Thu Mar 11 16:33:00 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: support 2-lines date format.
+
+Thu Mar 11 15:34:37 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb, update.rb: add get access and delete touch function.
+
+Tue Mar  9 10:47:43 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: delete description.
+
+Sat Mar  6 01:47:17 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: use File.expand_path().
+
+Sat Mar  6 00:19:38 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: unset @last_detected unless @last_modified.
+
+Fri Mar  5 20:35:04 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: use @dir if current dir.
+	* antenna.conf.sample: add comment.
+
+Fri Mar  5 19:54:41 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: Add suffix mode.
+
+Fri Mar  5 19:01:58 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* *.rb: use File.join() instead of '/'
+
+Fri Mar  5 15:12:16 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* index.xsl: bug fixed (change dc:creator to dc:publisher).
+
+Fri Mar  5 12:43:32 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* index.xsl: bug fixed (change dc:publisher to dc:creator).
+
+Thu Mar  4 23:29:55 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* index.xsl: Add DOCTYPE
+
+Thu Mar  4 21:05:23 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb, index.xsl: Powered by... desc in <dc:publisher>
+
+Thu Mar  4 17:31:13 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: support auth_url.
+
+Thu Mar  4 16:39:51 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: Add input plugin processing.
+
+Thu Mar  4 15:58:54 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: delete round url.
+
+Thu Mar  4 15:49:32 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* antenna.rb: change resucue to rescue Exception.
+
+Thu Mar  4 15:16:29 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* antenna.rb: add rescue Timeout::Error, Net::HTTPServerException.
+
+Thu Mar  4 15:03:30 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: Add timeout processing and User-Agent.
+
+Thu Mar  4 14:28:48 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: Follow plugin/output_lirs.rb.
+
+Thu Mar  4 14:00:08 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* ChangeLog: split plugin ChangeLog.
+	* plugin/ChangeLog: split plugin ChangeLog.
+
+Thu Mar  4 13:38:55 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: Change dc:date format.
+
+Thu Mar  4 13:25:42 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb: Add output plugin read.
+
+Thu Mar  4 13:09:32 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* antenna.rb, index.xsl: Add dc:creator.
+
+Thu Mar  4 13:08:39 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* index.rdf: remove.
+
+Thu Mar  4 12:18:50 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* antenna.rb: add GPL notices.
+	* update.rb: add GPL notices.
+

@@ -1,0 +1,96 @@
+Thu Jun 17 23:47:39 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* input_lirs.rb: call add_input_proc method.
+	* output_lirs.rb: call add_output_proc method.
+	* output_html.rb: call add_output_proc method.
+
+Thu Apr 22 23:13:49 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* output_html.rb: support '%' char in url.
+
+Thu Apr 22 19:11:15 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* output_html.rb: use urls_compare method.
+
+Thu Apr 22 13:28:55 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* input_lirs.rb: support both ruby-zlib and Ruby1.8's zlib.
+
+Tue Apr 20 10:44:43 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* output_html.rb: use CGI::escapeHTML
+
+Mon Apr 19 19:49:16 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* input_lirs.rb: support zlib-ruby1.8 
+
+Fri Apr 16 19:06:16 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* output_html.rb: fix spell miss.
+
+Fri Apr 16 00:48:30 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* input_lirs.rb: support Ruby1.6 when use gzip compression.
+
+Thu Apr 15 16:41:08 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* input_lirs.rb: support gzip compression.
+
+Thu Mar 25 23:32:58 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* output_html.rb: add.
+
+Sat Mar  6 01:12:31 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* output_lirs.rb: use File.expand_path().
+
+Sat Mar  6 00:18:24 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* input_lirs.rb: change @auth_url algorithm.
+
+Fri Mar  5 20:08:17 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* input_lirs.rb: fix wrong copyright.
+	* output_lirs.rb: fix wrong copyright.
+
+Thu Mar  4 23:30:21 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* input_lirs.rb: take a most recent lirs.
+
+Thu Mar  4 17:30:33 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* input_lirs.rb, output_lirs.rb: support auth_url.
+
+Thu Mar  4 16:39:06 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* input_lirs.rb: Add input_lirs.rb
+
+Thu Mar  4 14:59:05 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* output_lirs.rb: Add round url.
+
+Thu Mar  4 14:45:48 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* output_lirs.rb: default lirs file to rantenna.lirs.
+
+Thu Mar  4 14:35:19 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* output_lirs.rb: Fix zlib bug.
+
+Thu Mar  4 14:31:12 2004  Michitaka Ohno  <elpeo@mars.dti.ne.jp>
+
+	* output_lirs.rb: Fix time format bug and rescue zlib error.
+
+Thu Mar  4 14:00:08 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* ChangeLog: split plugin ChangeLog
+	* plugin/ChangeLog: split plugin ChangeLog
+
+Thu Mar  4 13:52:35 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* plugin/output_lirs.rb: add support lirs.gz
+
+Thu Mar  4 13:28:17 2004  Norihiro Hattori  <tnh@webmasters.gr.jp>
+
+	* plugin/output_lirs.rb: added.
+
